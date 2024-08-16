@@ -1,0 +1,244 @@
+How many servers do you want to run?
+Running server 1... 4db0f8d53a0d3bbf12e18c033121660769ee572f0d42f03a745739a15977efae
+Creating rules for balancer...
+Building balancer image...
+Running balancer... * Serving Flask app 'script'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.96.3.114:5000
+Press CTRL+C to quit
+Synced with 172.18.0.3
+GRAPH: 1,0
+172.18.0.2 - - [03/May/2024 15:05:42] "GET /pkts_info?pkts=0&servers=1 HTTP/1.1" 200 -
+OK
+No need to create new server!
+Synced with 172.18.0.3
+GRAPH: 1,60
+f5066caae5f878067398f5736c9c6d8ab6d27d2d38761a081dc9eae930afa6f0
+172.18.0.2 - - [03/May/2024 15:05:53] "GET /pkts_info?pkts=60&servers=1 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 4 added to load balancer!
+Synced with 172.18.0.4
+Synced with 172.18.0.3
+GRAPH: 2,330
+6f2f013939004e8011afff98681a88ac5ff5b6ff4153957cce3b687ed33ae39c
+172.18.0.2 - - [03/May/2024 15:06:04] "GET /pkts_info?pkts=330&servers=2 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 5 added to load balancer!
+Synced with 172.18.0.4
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+GRAPH: 3,192
+f6abe2c74ecd3f227a2e4c65d18df0719cd87dde2eaee7c431923fc427d82ff6
+172.18.0.2 - - [03/May/2024 15:06:14] "GET /pkts_info?pkts=192&servers=3 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 6 added to load balancer!
+Synced with 172.18.0.6
+Synced with 172.18.0.4
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+GRAPH: 4,182
+83b65682a599534512079f522776fc4d1a7e0d31868fd8be3e04ef7266f7f966
+172.18.0.2 - - [03/May/2024 15:06:25] "GET /pkts_info?pkts=182&servers=4 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 7 added to load balancer!
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.6
+GRAPH: 5,2418
+8de54724fcdd501efb389423f7e57faf4204a4f88e566d497263df516ce96fad
+172.18.0.2 - - [03/May/2024 15:06:36] "GET /pkts_info?pkts=2418&servers=5 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 8 added to load balancer!
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+GRAPH: 6,1783
+947ec5dda6f08e1260791ca0f792ee76862c2eae0a33fb7aecdf93d561a438f5
+172.18.0.2 - - [03/May/2024 15:06:47] "GET /pkts_info?pkts=1783&servers=6 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 9 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+GRAPH: 7,781
+fa5795b6582e585cd78e5929666ddd0f2e7b4822f6d2f2aabd925d6a02f419b8
+172.18.0.2 - - [03/May/2024 15:06:57] "GET /pkts_info?pkts=781&servers=7 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 10 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.10
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+GRAPH: 8,500
+5d99c21bda824a2db1bb6e6676b11bf5d539e1555e0b84284c943b0a1c1580c6
+172.18.0.2 - - [03/May/2024 15:07:08] "GET /pkts_info?pkts=500&servers=8 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 11 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+Synced with 172.18.0.10
+Synced with 172.18.0.11
+GRAPH: 9,116
+2bf7f6e497e3569e0442cb95a0cc7aab64c8b698dea1e8ce5da5ca1a522558df
+172.18.0.2 - - [03/May/2024 15:07:19] "GET /pkts_info?pkts=116&servers=9 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 12 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.10
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.12
+Synced with 172.18.0.6
+Synced with 172.18.0.11
+GRAPH: 10,0
+172.18.0.2 - - [03/May/2024 15:07:29] "GET /pkts_info?pkts=0&servers=10 HTTP/1.1" 200 -
+STOP_SERVER
+busy_torvalds
+busy_torvalds
+172.18.0.2 - - [03/May/2024 15:07:39] "GET /stop?ip=172.18.0.12 HTTP/1.1" 200 -
+OK
+Server stopped!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+Synced with 172.18.0.10
+Synced with 172.18.0.11
+GRAPH: 9,0
+172.18.0.2 - - [03/May/2024 15:07:49] "GET /pkts_info?pkts=0&servers=9 HTTP/1.1" 200 -
+STOP_SERVER
+pensive_moser
+pensive_moser
+172.18.0.2 - - [03/May/2024 15:08:00] "GET /stop?ip=172.18.0.11 HTTP/1.1" 200 -
+OK
+Server stopped!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.10
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+GRAPH: 8,0
+172.18.0.2 - - [03/May/2024 15:08:10] "GET /pkts_info?pkts=0&servers=8 HTTP/1.1" 200 -
+STOP_SERVER
+fervent_brahmagupta
+fervent_brahmagupta
+172.18.0.2 - - [03/May/2024 15:08:21] "GET /stop?ip=172.18.0.10 HTTP/1.1" 200 -
+OK
+Server stopped!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+GRAPH: 7,90
+95be9b46923900e931ba8f3726b38c2e9aa04826a5948469ab744096ce264285
+172.18.0.2 - - [03/May/2024 15:08:31] "GET /pkts_info?pkts=90&servers=7 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 10 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.10
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+GRAPH: 8,300
+d6e1dfd3961aba8d4770bbf0f8730d6a53783b43fd0c3c3f2fb3b02b99b745c2
+172.18.0.2 - - [03/May/2024 15:08:42] "GET /pkts_info?pkts=300&servers=8 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 11 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.6
+Synced with 172.18.0.10
+Synced with 172.18.0.11
+GRAPH: 9,287
+4a7926683e6a74afab2ee7d341281ae3cb4db2e80f2040d898d5d28d7fdfbb7b
+172.18.0.2 - - [03/May/2024 15:08:52] "GET /pkts_info?pkts=287&servers=9 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 12 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.10
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.12
+Synced with 172.18.0.6
+Synced with 172.18.0.11
+GRAPH: 10,283
+a8ef2dd205ce4e0d9dd2fab6f2a36dcd1f49a70483cbb1e6f1d5dbbffec63ea4
+172.18.0.2 - - [03/May/2024 15:09:03] "GET /pkts_info?pkts=283&servers=10 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 13 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.7
+Synced with 172.18.0.13
+Synced with 172.18.0.5
+Synced with 172.18.0.3
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.12
+Synced with 172.18.0.6
+Synced with 172.18.0.10
+Synced with 172.18.0.11
+GRAPH: 11,288
+89d060543b4126e95ca900b320ecaebdcb1264f2c5bdbd97296788cdbde3d979
+172.18.0.2 - - [03/May/2024 15:09:14] "GET /pkts_info?pkts=288&servers=11 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 14 added to load balancer!
+Synced with 172.18.0.9
+Synced with 172.18.0.14
+Synced with 172.18.0.7
+Synced with 172.18.0.5
+Synced with 172.18.0.12
+Synced with 172.18.0.3
+Synced with 172.18.0.10
+Synced with 172.18.0.4
+Synced with 172.18.0.8
+Synced with 172.18.0.13
+Synced with 172.18.0.6
+Synced with 172.18.0.11
+GRAPH: 12,282
+1988c9ae2d301e1e2cd083d81bc2c767b625b611df974645ed126ff0b43bae78
+172.18.0.2 - - [03/May/2024 15:09:25] "GET /pkts_info?pkts=282&servers=12 HTTP/1.1" 200 -
+CREATE_SERVER
+New server with IP: 172.18.0. 15 added to load balancer!
